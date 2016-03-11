@@ -1,0 +1,159 @@
+.btn {
+ display: inline-block;
+ padding: 6px 12px;
+ margin-bottom: 0;
+ font-size: 14px;
+ font-weight: normal;
+ line-height: 1.42857143;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle;
+ -ms-touch-action: manipulation;
+ touch-action: manipulation;
+ cursor: pointer;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ background-image: none;
+ border: 1px solid transparent;
+ border-radius: 4px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+ outline: thin dotted;
+ outline: 5px auto -webkit-focus-ring-color;
+ outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+ color: #333;
+ text-decoration: none;
+}
+.btn:active,
+.btn.active {
+ background-image: none;
+ outline: 0;
+ -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+ box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+ cursor: not-allowed;
+ filter: alpha(opacity=65);
+ -webkit-box-shadow: none;
+ box-shadow: none;
+ opacity: .65;
+}
+a.btn.disabled,
+fieldset[disabled] a.btn {
+ pointer-events: none;
+}
+.btndefault {
+ color: #333;
+ background-color: #fff;
+ border-color: #ccc;
+}
+.btndefault:focus,
+.btndefault.focus {
+ color: #333;
+ background-color: #e6e6e6 ;
+ border-color: #8c8c8c ;
+}
+.btndefault:hover {
+ color: #333;
+ background-color: #e6e6e6 ;
+ border-color: #adadad ;
+}
+.btndefault:active,
+.btndefault.active,
+.open > .dropdown-toggle.btndefault {
+ color: #333;
+ background-color: #e6e6e6 ;
+ border-color: #adadad ;
+}
+.btndefault:active:hover,
+.btndefault.active:hover,
+.open > .dropdown-toggle.btndefault:hover,
+.btndefault:active:focus,
+.btndefault.active:focus,
+.open > .dropdown-toggle.btndefault:focus,
+.btndefault:active.focus,
+.btndefault.active.focus,
+.open > .dropdown-toggle.btndefault.focus {
+ color: #333;
+ background-color: #d4d4d4 ;
+ border-color: #8c8c8c ;
+}
+.btndefault:active,
+.btndefault.active,
+.open > .dropdown-toggle.btndefault {
+ background-image: none;
+}
+.btndefault.disabled:hover,
+.btndefault[disabled]:hover,
+fieldset[disabled] .btndefault:hover,
+.btndefault.disabled:focus,
+.btndefault[disabled]:focus,
+fieldset[disabled] .btndefault:focus,
+.btndefault.disabled.focus,
+.btndefault[disabled].focus,
+fieldset[disabled] .btndefault.focus {
+ background-color: #fff;
+ border-color: #ccc;
+}
+.btndefault .badge {
+ color: #fff;
+ background-color: #333;
+}
+
+.btnblock {
+ display: block;
+ width: 100%;
+}
+.btnblock + .btnblock {
+ margin-top: 5px;
+}
+input[type="submit"].btnblock,
+input[type="reset"].btnblock,
+input[type="button"].btnblock {
+ width: 100%;
+}
+
+a.nextButton {
+ position: relative;
+ display: block;
+ padding: 10px 15px;
+ color: #fff;
+ background-color: #337ab7 ;
+ border-radius: 4px;
+ text-decoration: none;
+ text-align: center;
+ margin: 10px 50px;
+}
+
+.input {
+ display: block;
+ width: 100%;
+ height: 20px;
+ padding: 6px 0;
+ margin: 10px 0;
+ font-size: 14px;
+ line-height: 1.42857143;
+ color: #555;
+ background-color: #fff;
+ background-image: none;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+ box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+ -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+ -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

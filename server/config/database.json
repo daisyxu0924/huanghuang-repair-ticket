@@ -1,0 +1,19 @@
+{
+  "development": {
+    "database": "tickets_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "tickets_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "tickets_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
